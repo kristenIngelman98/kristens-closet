@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
+/* @import 'semantic-ui-css/semantic.css'; */
+
+/* universal image styling */
+img {
+  max-width: 100%;
+  height: auto;
+}
+.homepage {
+  margin-top: 60px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.bm-burger-button {
+  top: 20px;
+}
+/* cart icon styles */
+
+.icon {
+  width: 20px;
+}
+
+
+/* header styles */
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr ;
+}
+
+.headerIcons {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.headerIcons img {
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* mobile logo */
+
+.mobileLogo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* fixed header styles */
+.header {
+  overflow: hidden;
+  background-color: pink;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header a {
+  /* float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px; */
+}
+
+/* .header a:hover {
+  background: #ddd;
+  color: black;
+} */
+
+
+/* loader  */
+
+.loading {
+  margin-top: 200px;
+  margin-left: 400px;
 }
