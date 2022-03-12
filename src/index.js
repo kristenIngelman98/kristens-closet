@@ -1,7 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import 'semantic-ui-css/semantic.min.css';
-import 'semantic-ui-css/semantic.min.css'
+// import 'semantic-ui-css/semantic.min.css'
 import './index.css';
 import App from './App';
 import Header from '../src/components/Header';
@@ -9,6 +10,7 @@ import Footer from '../src/components/Footer';
 import reportWebVitals from './reportWebVitals';
 import ShoppingCart from './routes/ShoppingCart';
 import AllShoes from './routes/AllShoes';
+import ShippingBanner from './components/ShippingBanner';
 
 import {
   BrowserRouter,
@@ -19,7 +21,21 @@ import IndividualShoe from './routes/AllShoes';
 
 ReactDOM.render(
   <React.StrictMode>
-  <App />
+
+    <BrowserRouter>
+ 
+      <Header />
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="cart" element={<ShoppingCart />} />
+        <Route path="shoes" element={<AllShoes />} />
+      </Routes>
+      <Footer />
+
+
+    </BrowserRouter>
+
+
 
 
   </React.StrictMode>,
@@ -36,8 +52,8 @@ reportWebVitals();
 // <Header />
 // <Routes>
 //   <Route path="/" element={<App />} />
-//   <Route path="cart" element={<ShoppingCart />} />
-//   <Route path="shoes" element={<AllShoes />} />
+  // <Route path="cart" element={<ShoppingCart />} />
+  // <Route path="shoes" element={<AllShoes />} />
 // </Routes>
 // <Footer />
 // </BrowserRouter>

@@ -1,11 +1,11 @@
 
-// function MainMenu() {
-//     return (
-//       <div>
-//           <p>Main Menu</p>
-//       </div>
-//     );
-//   }
+function MainMenu() {
+    return (
+      <div>
+          <p>Main Menu</p>
+      </div>
+    );
+  }
   
-//   export default MainMenu;
+  export default MainMenu;
   

@@ -1,12 +1,12 @@
-// import search from '../images/magnifying-glass-solid.svg';
+import search from '../images/magnifying-glass-solid.svg';
 
-// function Search() {
-//     return (
-//       <div>
-//           <img className="icon" src={search} />
-//       </div>
-//     );
-//   }
+function Search() {
+    return (
+      <div>
+          <img className="icon" src={search} />
+      </div>
+    );
+  }
   
-//   export default Search;
+  export default Search;
   

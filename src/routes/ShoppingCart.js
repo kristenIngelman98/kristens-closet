@@ -1,10 +1,10 @@
-// function ShoppingCart() {
-//     return (
-//       <div>
-//           <p>Shopping Cart</p>
-//       </div>
-//     );
-//   }
+function ShoppingCart() {
+    return (
+      <div>
+          <p>Shopping Cart</p>
+      </div>
+    );
+  }
   
-//   export default ShoppingCart;
+  export default ShoppingCart;
   

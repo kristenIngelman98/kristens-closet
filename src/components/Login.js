@@ -1,12 +1,12 @@
-// import user from '../images/user-solid.svg';
+import user from '../images/user-solid.svg';
 
-// function Login() {
-//     return (
-//       <div>
-//           <img className="icon" src={user} />
-//       </div>
-//     );
-//   }
+function Login() {
+    return (
+      <div>
+          <img className="icon" src={user} />
+      </div>
+    );
+  }
   
-//   export default Login;
+  export default Login;
   

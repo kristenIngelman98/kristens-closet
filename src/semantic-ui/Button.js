@@ -1,14 +1,19 @@
-// import React from 'react'
-// import { Dimmer, Loader, Image, Segment } from 'semantic-ui-react'
+import React from 'react'
+// import { Button } from 'semantic-ui-react'
 
-// const LoaderExampleLoader = () => (
-//   <Segment>
-//     <Dimmer active>
-//       <Loader />
-//     </Dimmer>
-
-//     <Image src='/images/wireframe/short-paragraph.png' />
-//   </Segment>
+// const ButtonExampleEmphasis = () => (
+//   <div>
+//     <Button primary>Primary</Button>
+//     <Button secondary>Secondary</Button>
+//   </div>
 // )
 
-// export default LoaderExampleLoader;
+// export default ButtonExampleEmphasis
+import { Button } from 'react-bootstrap';
+const Button = () => (
+  <div>
+    <Button variant="primary">Primary</Button>{' '}
+  </div>
+)
+
+export default Button
