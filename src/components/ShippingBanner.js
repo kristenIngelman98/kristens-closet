@@ -1,10 +1,3 @@
-import MobileMenu from './MobileMenu';
-import MainMenu from './MainMenu';
-import Search from './Search';
-import Login from './Login';
-import Cart from './Cart';
-
-
 function ShippingBanner() {
   return (
     <div>

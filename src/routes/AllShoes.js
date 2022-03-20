@@ -51,13 +51,16 @@ function IndividualShoe() {
     }
  
     return (
-      <div>
+      <div className="individual-shoe-grid">
       {Products.map((product) => {
         return (
             <div className="individual-shoe-details">
-                <p>{product.name}</p>
                 <img src={`https://${product.imageUrl}`} alt="Shoe Image" />
-                <p>{product.price.current.text}</p>
+                <div className="individual-shoe-details--text">
+                  <p>{product.name}</p>
+                  <p>{product.price.current.text}</p>
+                </div>
+
             </div>
         )})}
         <Pagination />

@@ -1,5 +1,5 @@
-import shoppingCart from '../images/bag-shopping-solid.svg';
-import { Link } from "react-router-dom";
+// import shoppingCart from '../images/bag-shopping-solid.svg';
+// import { Link } from "react-router-dom";
 import siteLogo  from '../images/logo.png';
 
 function Logo() {

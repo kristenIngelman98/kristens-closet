@@ -12,12 +12,14 @@ import ShoppingCart from './routes/ShoppingCart';
 import AllShoes from './routes/AllShoes';
 import ShippingBanner from './components/ShippingBanner';
 
+import Signin from '../src/profile/Signin';
+
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-import IndividualShoe from './routes/AllShoes';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -29,6 +31,7 @@ ReactDOM.render(
         <Route path="/" element={<App />} />
         <Route path="cart" element={<ShoppingCart />} />
         <Route path="shoes" element={<AllShoes />} />
+        <Route path="login" element={<Signin />} />
       </Routes>
       <Footer />
 

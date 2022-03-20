@@ -9,6 +9,7 @@ function Homepage() {
     return (
       <div className="homepage">
       <Gallery />
+      <p>shop now button</p>
 
           
           
