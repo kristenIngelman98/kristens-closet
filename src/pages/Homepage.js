@@ -10,8 +10,10 @@ function Homepage() {
     return (
       <div className="homepage">
       <Gallery />
-      <p>shop now button</p>
-      <MainButton />
+      <div className='homepage_shop_now_button button_style'>
+        <button>Shop Now</button>
+      </div>
+     
 
           
           

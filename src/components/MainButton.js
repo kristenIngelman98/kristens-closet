@@ -1,4 +1,5 @@
 import { Button } from 'react-bootstrap';
+//use props for buttons**
 
 const MainButton = () => (
   <div>
